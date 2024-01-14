@@ -11,7 +11,7 @@
       }
     ]
   },
-  "language": "eurkey",
+  "language": "english",
   "layerNames": [
     {
       "id": 0,
@@ -31,15 +31,15 @@
     },
     {
       "id": 4,
-      "name": "L5 - Shift and F keys"
+      "name": "L5 - Shift"
     },
     {
       "id": 5,
-      "name": "L6"
+      "name": "L6 - Numpad"
     },
     {
       "id": 6,
-      "name": "L7"
+      "name": "L7 - German Umlauts"
     },
     {
       "id": 7,
@@ -60,28 +60,34 @@
       "label": "ESC"
     },
     {
-      "keyCode": 58,
-      "label": "F1"
+      "keyCode": 2106,
+      "label": "F1",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 59,
-      "label": "F2"
+      "keyCode": 2107,
+      "label": "F2",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 60,
-      "label": "F3"
+      "keyCode": 2108,
+      "label": "F3",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 61,
-      "label": "F4"
+      "keyCode": 2109,
+      "label": "F4",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 62,
-      "label": "F5"
+      "keyCode": 2110,
+      "label": "F5",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 63,
-      "label": "F6"
+      "keyCode": 2111,
+      "label": "F6",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -96,28 +102,34 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 64,
-      "label": "F7"
+      "keyCode": 2112,
+      "label": "F7",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 65,
-      "label": "F8"
+      "keyCode": 2113,
+      "label": "F8",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 66,
-      "label": "F9"
+      "keyCode": 2114,
+      "label": "F9",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 67,
-      "label": "F10"
+      "keyCode": 2115,
+      "label": "F10",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 68,
-      "label": "F11"
+      "keyCode": 2116,
+      "label": "F11",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 69,
-      "label": "F12"
+      "keyCode": 2117,
+      "label": "F12",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 76,
@@ -153,11 +165,6 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 3094,
-      "label": "ẞ",
-      "extraLabel": "AGr+S+"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -170,9 +177,16 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 3096,
-      "label": "Ü",
-      "extraLabel": "AGr+S+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 2061,
@@ -195,8 +209,10 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 2100,
-      "label": "\""
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -236,11 +252,6 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 3076,
-      "label": "Ä",
-      "extraLabel": "AGr+S+"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -253,9 +264,16 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 3090,
-      "label": "Ö",
-      "extraLabel": "AGr+S+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 2064,
@@ -354,27 +372,14 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 51,
-      "label": ";"
+      "keyCode": 53855,
+      "label": "Singl",
+      "extraLabel": "MACRO"
     },
     {
-      "keyCode": 2099,
-      "label": ":"
-    },
-    {
-      "keyCode": 2093,
-      "label": "_"
-    },
-    {
-      "keyCode": 229,
-      "label": "SHIFT",
-      "extraLabel": "RIGHT",
-      "verbose": "Right Shift"
-    },
-    {
-      "keyCode": 49162,
-      "label": "2",
-      "extraLabel": "OSL"
+      "keyCode": 53856,
+      "label": "Doubl",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -383,19 +388,42 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 44,
-      "label": "SPACE"
+      "keyCode": 229,
+      "label": "SHIFT",
+      "extraLabel": "RIGHT",
+      "verbose": "Right Shift"
     },
     {
-      "keyCode": 2274,
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 226,
       "label": "LEFT ALT",
-      "extraLabel": "S+"
+      "verbose": "Left Alt"
+    },
+    {
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
       "keyCode": 224,
       "label": "CTRL",
       "extraLabel": "LEFT",
       "verbose": "Left Control"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 2272,
+      "label": "CTRL",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 2274,
@@ -413,30 +441,26 @@
       "extraLabel": "SUPER"
     },
     {
-      "keyCode": 53980,
-      "label": "Layer",
-      "extraLabel": "SUPER"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 231,
-      "label": "RIGHT WIN",
-      "verbose": "Right Windows"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 230,
-      "label": "RIGHT ALT",
-      "extraLabel": "",
-      "verbose": "AltGr"
+      "keyCode": 40,
+      "label": "ENTER"
     },
     {
-      "keyCode": 49209,
-      "label": "ENTER",
-      "extraLabel": "CTRL/"
-    },
-    {
-      "keyCode": 2274,
-      "label": "LEFT ALT",
-      "extraLabel": "S+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 42,
@@ -450,81 +474,82 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 49162,
-      "label": "2",
-      "extraLabel": "OSL"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     }
   ],
   "colormap": [
     14,
-    9,
-    9,
-    9,
-    9,
-    12,
-    12,
+    8,
+    8,
+    8,
+    8,
+    4,
+    4,
     10,
     11,
     11,
     11,
     11,
     11,
-    11,
-    12,
-    11,
-    11,
-    11,
-    11,
-    11,
-    11,
-    12,
-    11,
-    11,
-    11,
-    11,
-    11,
-    10,
     15,
-    0,
     12,
-    12,
-    12,
+    11,
+    11,
+    11,
+    6,
+    11,
+    15,
+    15,
+    11,
+    11,
+    11,
+    11,
+    11,
+    15,
     12,
     6,
-    14,
-    9,
-    9,
-    9,
-    9,
-    12,
     12,
     15,
-    7,
+    12,
+    12,
+    12,
+    14,
+    8,
+    8,
+    8,
+    8,
+    4,
+    4,
+    15,
+    15,
     11,
     11,
     11,
     11,
-    11,
+    15,
     12,
     11,
     11,
     11,
+    6,
     11,
-    11,
-    11,
-    12,
+    15,
+    15,
+    15,
     7,
     7,
-    7,
     11,
     11,
-    10,
+    15,
     15,
     14,
-    12,
-    12,
-    12,
-    12,
+    15,
+    6,
+    15,
+    15,
     8,
     15,
     15,
@@ -661,22 +686,22 @@
       "rgb": "rgb(255, 255, 255)"
     },
     {
-      "r": 124,
-      "g": 45,
-      "b": 18,
-      "rgb": "rgb(124, 45, 18)"
+      "r": 251,
+      "g": 113,
+      "b": 133,
+      "rgb": "rgb(251, 113, 133)"
     },
     {
-      "r": 4,
-      "g": 120,
-      "b": 87,
-      "rgb": "rgb(4, 120, 87)"
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
     },
     {
-      "r": 74,
-      "g": 222,
-      "b": 128,
-      "rgb": "rgb(74, 222, 128)"
+      "r": 248,
+      "g": 250,
+      "b": 252,
+      "rgb": "rgb(248, 250, 252)"
     },
     {
       "r": 148,
@@ -697,10 +722,10 @@
       "rgb": "rgb(109, 40, 217)"
     },
     {
-      "r": 253,
-      "g": 224,
-      "b": 71,
-      "rgb": "rgb(253, 224, 71)"
+      "r": 250,
+      "g": 204,
+      "b": 21,
+      "rgb": "rgb(250, 204, 21)"
     },
     {
       "r": 14,

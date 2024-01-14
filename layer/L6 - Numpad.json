@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "name": "L5 - Shift and F keys"
+      "name": "L5 - Shift"
     },
     {
       "id": 5,
@@ -60,28 +60,16 @@
       "label": "ESC"
     },
     {
-      "keyCode": 30,
-      "label": "1"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 31,
-      "label": "2"
-    },
-    {
-      "keyCode": 32,
-      "label": "3"
-    },
-    {
-      "keyCode": 33,
-      "label": "4"
-    },
-    {
-      "keyCode": 34,
-      "label": "5"
-    },
-    {
-      "keyCode": 35,
-      "label": "6"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -96,28 +84,59 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 45,
-      "label": "-"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 35,
-      "label": "6"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 36,
-      "label": "7"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 37,
-      "label": "8"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 38,
-      "label": "9"
+      "keyCode": 54108,
+      "label": "LEVEL",
+      "extraLabel": "BATT."
     },
     {
-      "keyCode": 39,
-      "label": "0"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 83,
+      "label": "NUMLOCK",
+      "verbose": "Num Lock"
+    },
+    {
+      "keyCode": 84,
+      "label": "/",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 85,
+      "label": "*",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 86,
+      "label": "-",
+      "extraLabel": "Num"
     },
     {
       "keyCode": 76,
@@ -128,28 +147,16 @@
       "label": "TAB"
     },
     {
-      "keyCode": 20,
-      "label": "Q"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 26,
-      "label": "W"
-    },
-    {
-      "keyCode": 8,
-      "label": "E"
-    },
-    {
-      "keyCode": 21,
-      "label": "R"
-    },
-    {
-      "keyCode": 23,
-      "label": "T"
-    },
-    {
-      "keyCode": 36,
-      "label": "7"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -164,32 +171,64 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 46,
-      "label": "="
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 28,
-      "label": "Y"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 24,
-      "label": "U"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 12,
-      "label": "I"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 18,
-      "label": "O"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 19,
-      "label": "P"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 49,
-      "label": "\\"
+      "keyCode": 95,
+      "label": "7",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 96,
+      "label": "8",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 97,
+      "label": "9",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 87,
+      "label": "+",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 73,
+      "label": "INSERT"
     },
     {
       "keyCode": 225,
@@ -198,30 +237,6 @@
       "verbose": "Left Shift"
     },
     {
-      "keyCode": 4,
-      "label": "A"
-    },
-    {
-      "keyCode": 22,
-      "label": "S"
-    },
-    {
-      "keyCode": 7,
-      "label": "D"
-    },
-    {
-      "keyCode": 9,
-      "label": "F"
-    },
-    {
-      "keyCode": 10,
-      "label": "G"
-    },
-    {
-      "keyCode": 37,
-      "label": "8"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -240,54 +255,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 11,
-      "label": "H"
-    },
-    {
-      "keyCode": 13,
-      "label": "J"
-    },
-    {
-      "keyCode": 14,
-      "label": "K"
-    },
-    {
-      "keyCode": 15,
-      "label": "L"
-    },
-    {
-      "keyCode": 51,
-      "label": ";"
-    },
-    {
-      "keyCode": 52,
-      "label": "'"
-    },
-    {
-      "keyCode": 224,
-      "label": "CTRL",
-      "extraLabel": "LEFT",
-      "verbose": "Left Control"
-    },
-    {
-      "keyCode": 29,
-      "label": "Z"
-    },
-    {
-      "keyCode": 27,
-      "label": "X"
-    },
-    {
-      "keyCode": 6,
-      "label": "C"
-    },
-    {
-      "keyCode": 25,
-      "label": "V"
-    },
-    {
-      "keyCode": 5,
-      "label": "B"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -314,24 +285,68 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 17,
-      "label": "N"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 16,
-      "label": "M"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 54,
-      "label": ","
+      "keyCode": 92,
+      "label": "4",
+      "extraLabel": "Num"
     },
     {
-      "keyCode": 55,
-      "label": "."
+      "keyCode": 93,
+      "label": "5",
+      "extraLabel": "Num"
     },
     {
-      "keyCode": 56,
-      "label": "/"
+      "keyCode": 94,
+      "label": "6",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 99,
+      "label": ".",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 229,
+      "label": "SHIFT",
+      "extraLabel": "RIGHT",
+      "verbose": "Right Shift"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 285,
+      "label": "Z",
+      "extraLabel": "C+"
+    },
+    {
+      "keyCode": 283,
+      "label": "X",
+      "extraLabel": "C+"
+    },
+    {
+      "keyCode": 262,
+      "label": "C",
+      "extraLabel": "C+"
+    },
+    {
+      "keyCode": 281,
+      "label": "V",
+      "extraLabel": "C+"
     },
     {
       "keyCode": 0,
@@ -344,6 +359,61 @@
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 89,
+      "label": "1",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 90,
+      "label": "2",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 91,
+      "label": "3",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 88,
+      "label": "Enter",
+      "extraLabel": "Num"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 49166,
+      "label": "6",
+      "extraLabel": "OSL"
     },
     {
       "keyCode": 226,
@@ -355,26 +425,26 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 226,
-      "label": "LEFT ALT",
-      "verbose": "Left Alt"
-    },
-    {
-      "keyCode": 226,
-      "label": "LEFT ALT",
-      "verbose": "Left Alt"
+      "keyCode": 224,
+      "label": "CTRL",
+      "extraLabel": "LEFT",
+      "verbose": "Left Control"
     },
     {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
+    },
+    {
+      "keyCode": 2272,
+      "label": "CTRL",
+      "extraLabel": "S+"
+    },
+    {
+      "keyCode": 2274,
+      "label": "LEFT ALT",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 227,
@@ -416,197 +486,195 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 98,
+      "label": "0",
+      "extraLabel": "Num"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 99,
+      "label": ".",
+      "extraLabel": "Num"
     }
   ],
   "colormap": [
     14,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
     10,
-    11,
-    11,
-    11,
-    11,
-    11,
-    13,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
     12,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
     11,
     11,
     11,
+    11,
+    15,
+    8,
+    12,
     6,
-    11,
-    13,
     12,
-    11,
-    11,
-    11,
-    11,
-    11,
     15,
     12,
-    6,
-    15,
-    15,
-    15,
-    15,
+    12,
     12,
     14,
-    13,
-    13,
-    13,
-    13,
-    13,
-    7,
-    7,
-    11,
-    11,
-    11,
-    11,
-    11,
     7,
     7,
     7,
-    11,
-    11,
-    6,
-    11,
+    9,
+    15,
+    9,
+    9,
+    7,
+    13,
+    13,
+    13,
     15,
     15,
+    12,
     7,
-    7,
-    7,
-    11,
-    11,
+    13,
+    13,
+    13,
     15,
     15,
+    15,
+    7,
+    13,
+    13,
+    13,
+    15,
+    13,
+    13,
     14,
     15,
     15,
     15,
     15,
     8,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    4
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    7
   ],
   "palette": [
     {
