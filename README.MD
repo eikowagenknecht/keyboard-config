@@ -255,4 +255,4 @@ Here are some other layouts for the Defy you might want to have a look at:
 - [Obskyur's layout](https://github.com/Obskyur/Dygma-Defy__Profiles): A QWERTY layout with some interesting ideas.
 - [barlevalon's layout](https://github.com/barlevalon/dotfiles/blob/main/dygma/miryoku-qwerty/README.md): A layout based on miryoku.
 
-Many more (of various quality)) can be found on the [Dygma Discord](https://www.dygma.com/discord) in the [share-your-layers channel](https://discord.com/channels/895297925578637362/1143898136427909323).
+Many more (of various quality) can be found on the [Dygma Discord](https://www.dygma.com/discord) in the [share-your-layers channel](https://discord.com/channels/895297925578637362/1143898136427909323).
