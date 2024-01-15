@@ -62,6 +62,8 @@ Using the [Tailwind CSS color palette](https://tailwindcss.com/docs/customizing-
 
 I've employed secondary colors for accentuation and clarity, like yellow and orange for navigation keys. Also the keys for e.g. switching to the symbol layer are in the same colour as the symbols themselves and not in the "layer" colour.
 
+I deliberately chose to leave off the underglow effect for the [base layer](#base-layer-1) and its [shifted state](#shift-layer-5) to save battery. I have it on for the other layers, to make it easier to see which layer is active.
+
 ### Layers
 
 I use several layers for different purposes:
