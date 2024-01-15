@@ -1,87 +1,93 @@
-# My keyboard configuration
+# My Keyboard Configuration
 
-This repository contains my keyboard configuration for the [Dygma Defy](https://dygma.com/pages/defy) keyboard. I'm still getting used to it. So this is a work in progress and will be updated as I get more used to the keyboard and the layout.
+This repository hosts my configuration for the [Dygma Defy](https://dygma.com/pages/defy) keyboard. As I adjust to this keyboard, I'll update the layout accordingly. In my layout research, I often found a lack of explanation frustrating, so I will not only share my current setup but aim to provide thorough reasoning here as well.
 
-I will give you my current configuration, but also some background on why I chose this layout and how I got there. I think this is important to understand the choices I made and to be able to adapt it to your own needs. I also saw **a lot** of keyboard designs and layouts while researching this, and was often annoyed by the lack of background information on why the layout was chosen the way it was.
+I believe that personal preferences significantly influence keyboard layout choices, so here's a bit about me:
 
-Since a lot of the decisions I made for my keyboard layout were based on my personal preferences, I will start with some background information about myself. I'll keep it short though.
-
-- I'm a software developer from Germany.
-- My native language is German, but I also use a lot of English on a daily basis.
+- I'm a German software developer.
+- I regularly use both German and English.
 - I have been typing for over 20 years, but only recently started touch typing.
-- My speed when touch typing on QWERTZ was about 50 wpm. Freestyling, looking at the keyboard every 10 to 20 characters, I got about 80wpm instead.
-- I work as a software developer and type a lot of code in various programming languages like Python, JavaScript, C#, Rust and more.
-- I'm also a gamer, but I don't play many competitive games.
+- My touch typing speed on QWERTZ was around 50 wpm, and 80 wpm with occasional glances at the keyboard.
+- As a software developer I code in Python, JavaScript, C#, Rust, HTML, CSS and more.
+- Gaming is one of my hobbies, but I don't engage in professional gaming.
 
 ## Physical keyboard
 
-Having previously used a [Logitech G915 TKL] (<https://amzn.to/479JC5t>) with brown switches, I decided it was time to upgrade my keyboard to a more ergonomic design. I had no serious medical problems with my hands etc but I wanted to be proactive and avoid any problems in the future.
-
-I now use the [Dygma Defy](https://dygma.com/pages/defy), a split ortholinear keyboard with 8 thumb keys on each side. It can be configured using the [Bazecor](https://github.com/Dygmalab/Bazecor) software, which offers quite a bit of customisation. My version has English keycaps and the Kailth Silent Brown switches. I am very happy with the keyboard so far.
+I upgraded from a [Logitech G915 TKL](<https://amzn.to/479JC5t>) QWERTZ keyboard with brown switches to the [Dygma Defy](https://dygma.com/pages/defy), a split ortholinear keyboard featuring 8 thumb keys on each side. My version is black, has Dash keycaps and Kailth Silent Brown switches.
 
 ## Windows Layout
 
-Coming from a German QWERTZ keyboard, I also wanted to take the opportunity to change to a more ergonomic layout, especially as I'm a programmer and use a lot of special characters. I went down the rabbit hole and looked at [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout), [Neo2](https://neo-layout.org/) plus its newer variants, [Workman](https://workmanlayout.org/), [EurKEY](https://eurkey.steffen.bruentjen.eu/), [Colemak](https://colemak.com/), [Colemak-DH](https://colemakmods.github.io/mod-dh/) and a few other layouts.
+Transitioning from a German QWERTZ layout, I explored various ergonomic layouts: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout), [Neo2](https://neo-layout.org/) plus its newer variants, [Workman](https://workmanlayout.org/), [EurKEY](https://eurkey.steffen.bruentjen.eu/), [Colemak](https://colemak.com/), [Colemak-DH](https://colemakmods.github.io/mod-dh/), etc.
 
-In the end, I decided to use [Colemak-DH](https://colemakmods.github.io/mod-dh/) because it seemed to be a good mix of ergonomics and support for both English and German. But unfortunately it seems that while a **lot** of thought went into the placement of the individual letters, the symbols and the symbol layer were not as well thought out and mostly remained in the QWERTY positions. My first idea was to use [EurKEY](https://eurkey.steffen.bruentjen.eu/) as my Windows layout instead. EURkey has the German characters **äöüß** on the **aous** keys on the AltGr layer, which is very easy to learn. It also has support for special characters that I used to have to remember the ALT codes for, like ·, ®, ©, ™ etc. Unfortunately, some of my client work requires me to use the US layout on a remote connection, so I decided against it and went with [English International](https://en.wikipedia.org/wiki/QWERTY#US-International) instead. This has drawbacks like the dead keys for single and double quotes, but I have found great workarounds for that (see below).
+Eventually, I settled on [Colemak-DH](https://colemakmods.github.io/mod-dh/). It seemed the best fit for ergonomics and supporting both English and German. However, I noticed the symbols and symbol layer weren't as well-considered, often remaining in their QWERTY positions.
 
-I thought about using [DreymaR's Big Bag Of Tricks / EPKL](https://github.com/DreymaR/BigBagKbdTrixPKL), but decided against it because I don't want to install additional software (with its own bugs) and there is no EPKL combination of the German layout for ortholinear keyboards as far as I can see.
+I initially considered using the [Colemak-DH](https://colemakmods.github.io/mod-dh/) windows layout or [EurKEY](https://eurkey.steffen.bruentjen.eu/), but I can not install that on all devices I use (client work). The same goes for [DreymaR's Big Bag Of Tricks / EPKL](https://github.com/DreymaR/BigBagKbdTrixPKL).
+
+So I went with [English International QWERTY](https://en.wikipedia.org/wiki/QWERTY#US-International) instead, despite its less convenient dead keys. But I have found workable solutions for that.
 
 ## Keyboard Layout
 
-Since [English International](https://en.wikipedia.org/wiki/QWERTY#US-International) is a pure QWERTY layout (just with special characters added), I used Bazecor to move the letter placement to match Colemak-DH. This is the layout I'm using now as my base layer.
+I've configured the [English International QWERTY](https://en.wikipedia.org/wiki/QWERTY#US-International) layout to match Colemak-DH using [Bazecor](https://github.com/Dygmalab/Bazecor). This is the layout I'm using now as my [base layer](#base-layer-1) (with some adjustments).
 
 ### Key colors
 
-To make learning easier, I have colour coded the keys. I use the colour palette from [Tailwind](https://tailwindcss.com/docs/customizing-colors). For reference, my keyboard brightness is set to 20 percent. The colours I use are:
+Using the [Tailwind CSS color palette](https://tailwindcss.com/docs/customizing-colors), I've color-coded the keys for easier learning. The hardware brightness is set to 20% in Bazecor. The color scheme includes:
 
-- Keys without any functionality:
-  - #000000
+- Non-functional keys:
+  - #000000 (Black)
 - Letter keys:
-  - #0E7490 / Cyan 700:
+  - #0E7490 (Cyan 700):
 - Destructive operations (Esc, Backspace, Delete):
-  - #DC2626 / Red 600:
+  - #DC2626 (Red 600):
 - Number keys (0-9):
-  - #FB923C / Orange 400
+  - #FB923C (Orange 400)
 - Modifier keys (Shift, Ctrl, Alt, OS):
-  - #A21CAF / Fuchsia 700
+  - #A21CAF (Fuchsia 700)
 - Function keys (F1-F12):
-  - #E879F9 / Fuchsia 400
-  - #FB7185 / Rose 400 (alternative)
-- Navigation keys (Arrows, Mouse, Tab):
-  - #FACC15 / Yellow 400
-  - #FB923C / Orange 400 (alternative)
-- Special keys like Print, Insert, Num Lock, ...:
-  - #6D28D9 / Violet 700
+  - #E879F9 (Fuchsia 400)
+  - #FB7185 (Rose 400) (alternative)
+- Navigation keys (Arrow keys, Mouse, Tab):
+  - #FACC15 (Yellow 400)
+  - #FB923C (Orange 400) (alternative)
+- Special keys (Print, Insert, Num Lock, ...):
+  - #6D28D9 (Violet 700)
 - Multimedia keys
-  - #E879F9 / Fuchsia 400
+  - #E879F9 (Fuchsia 400)
 - Layer shift:
-  - #15803D / Green 700
+  - #15803D (Green 700)
 - Symbols:
-  - #94A3B8/  Slate 400
-- Space, Enter, Homing keys
-  - #F8FAFC / Slate 50
+  - #94A3B8 (Slate 400)
+- Space, Enter, Homing keys:
+  - #F8FAFC (Slate 50)
 
-I have not been too strict about the colour coding, sometimes I use a second colour to accentuate, e.g. the arrow keys in yellow 300 and the other navigation keys next to them in orange 400. Also the keys for e.g. switching to the symbol layer are in the same colour as the symbols themselves and not in the "layer" colour.
+I've employed secondary colors for accentuation and clarity, like yellow and orange for navigation keys. Also the keys for e.g. switching to the symbol layer are in the same colour as the symbols themselves and not in the "layer" colour.
 
-I use several layers on my keyboard:
+### Layers
 
-1. Colemak DH
-2. Navigation
-3. Symbols
-4. Gaming
-5. Shift
-6. Numpad
-7. German Umlauts
+I use several layers for different purposes:
+
+- [Base Layer](#base-layer-1): Main typing layout ([Colemak-DH](https://colemakmods.github.io/mod-dh/)) with specific modifications for comfort and efficiency.
+- [Navigation](#navigation-layer-2): Optimized for cursor and mouse control.
+- [Symbols](#symbols-layer-3): Inspired by [Getreuer's layout](https://getreuer.info/posts/keyboards/symbol-layer/index.html), with minor tweaks.
+- [Gaming](#gaming-layer-4): Mimics QWERTY for gaming compatibility.
+- [Shift](#shift-layer-5): Shifted versions of base layer keys.
+- [Numpad](#numpad-layer-6): For numerical input, mimicking a traditional numpad layout.
+- [German Umlauts](#german-umlauts-layer-7): Easy access to ä, ö, ü, ß using an OSL key.
 
 ### Base Layer (1)
 
-This is the layer I use for typing. It is a Colemak-DH layout with the following changes:
+![Base Layer](images/layer1.png)
 
-- The number row has been completely replaced by the \[F1\] to \[F12\] keys. The numbers are now on the [symbols layer](#symbols-layer-3) instead. I made this change because I use the \[F*\] keys a lot in my work and I want to be able to reach them without having to use the layer shift.
-- The only symbols left on the base layer are the comma \[,\], the dot \[.\] and the semicolon \[,\]. The rest are on the [symbols layer](#symbols-layer-3).
-- Since I have \[<\] and \[>\] in an easily accessible and logical position on the [symbols layer](#symbols-layer-3), I wanted to have another value for the shifted state of \[,\] and \[.\]. Since this is not directly possible, I decided to use a separate [shift layer](#shift-layer-5) instead of the normal shift key.
-- \[Esc\] is on the leftmost key of the top row (as usual). I put \[Del\] on the mirrored position on the right side. This feels quite natural coming from a QWERTZ keyboard. I had \[Del\] on the right thumb cluster next to \[Backspace\] before, but I found that I too often pressed it by accident.
+This layer reflects the [Colemak-DH](https://colemakmods.github.io/mod-dh/) layout with modifications:
+
+- \[F1\] - \[F12\] keys replace the number row.
+  - The numbers are now on the [symbols layer](#symbols-layer-3) instead.
+  - I made this change because I use the \[F*\] keys a lot in my work and I want to be able to reach them without having to use the layer shift.
+- Comma \[,\], dot \[.\] and semicolon \[,\] are the only symbols left on the base layer.
+  - The other symbols are on the [symbols layer](#symbols-layer-3).
+  - Since I have \[<\] and \[>\] in an easily accessible and logical position on the [symbols layer](#symbols-layer-3), I wanted to have another value for the shifted state of \[,\] and \[.\]. Since this is not directly possible, I decided to use a separate [shift layer](#shift-layer-5) instead of the normal shift key.
+- I put \[Del\] on the right side, in the mirrored position of the \[Esc\] key.
+  - This feels quite natural coming from a QWERTZ keyboard. I had \[Del\] on the right thumb cluster next to \[Backspace\] before, but I found that I too often pressed it by accident.
 - The [shift layer](#shift-layer-5) is reachable on both pinkies in the home row. I prefer to have it here instead of one row lower because it is easier to reach and I use it more often than the [symbols layer](#symbols-layer-3).
 - The [symbols layer](#symbols-layer-3) has the same position as the shift layer, but one key lower. I have it on both hands as well, because the layer contains a lot of symbols on both hands.
 - The German characters \[ä\] \[ö\] \[ü\] \[ß\] are accessible on an [umlaut layer](#german-umlauts-layer-7). This layer is accessible with the right little finger as an [OSL (One-Shot-Layer key)](https://support.dygma.com/hc/en-us/articles/360007166377-What-are-One-Shot-Modifiers-and-One-Shot-Layers-).
@@ -94,7 +100,7 @@ This is the layer I use for typing. It is a Colemak-DH layout with the following
   - Tap: [Base layer](#base-layer-1)
   - 2x Tap: [Gaming layer](#gaming-layer-4)
 
-Two spots are still free, I'm not sure what to put there yet and don't want to clutter the layout with something only rarely used.
+Two spots are still free. I'm not sure what to put there yet and don't want to clutter the layout with something only rarely used.
 
 Thumb keys:
 
@@ -116,6 +122,8 @@ Thumb keys:
 
 ### Shift Layer (5)
 
+![Shift Layer](images/layer2.png)
+
 This layer complements the [base layer](#base-layer-1). Most of the keys are the same as they are there, but with an added "shift" modifier. The following keys are different:
 
 - The comma \[,\] has the single quote \['\] as its shifted state. This makes for a very convenient way to type the common English contractions with "n'" like "don't", "can't", "won't" and even better for "I'" like "I'm", "I'll", "I'd" etc. Also \['\] almost looks like \[,\], so it's easier to remember.
@@ -125,9 +133,13 @@ This layer complements the [base layer](#base-layer-1). Most of the keys are the
 
 ### German Umlauts Layer (7)
 
+![German Umlauts Layer](images/layer7.png)
+
 This means that when I press my right pinky, the layer is activated until I press another key. This way I can type the German characters without having to hold down the key. Having them in the same position as the characters without the dots is very intuitive and easy to learn.
 
 ### Symbols Layer (3)
+
+![Symbols Layer](images/layer3.png)
 
 I took heavy inspiration from [Getreuer's layout](https://getreuer.info/posts/keyboards/symbol-layer/index.html) for this layer. It is (imho) the best symbols layer on the internet with a lot of thought put into the placement of the symbols. I only made some very small changes to it, to accomodate the fact that my base layer has other symbols on it then his.
 
@@ -136,6 +148,8 @@ I also added keys for \[En Dash\] (–) for my typographic satisfaction and the 
 If you want to tweak it to your needs, [Xah Lee's page on char distribution](http://xahlee.info/comp/computer_language_char_distribution.html) is a useful resource for the distribution of symbols in various programming languages.
 
 ### Navigation Layer (2)
+
+![Navigation Layer](images/layer2.png)
 
 This layer is used for navigation.
 
@@ -159,6 +173,8 @@ Other keys:
 
 ### Gaming Layer (4)
 
+![Gaming Layer](images/layer4.png)
+
 This layer tries to resemble QWERTY as much as possible, so for gaming I don't have to remap the keys in the game.
 
 Notable key placements:
@@ -176,21 +192,67 @@ I guess I'll have to try these possibilities out for a while and see what works 
 
 ### Numpad Layer (6)
 
+![Numpad Layer](images/layer6.png)
+
 This layer is used for the numpad. I use it mainly for entering numbers, but also has the usual \[+\] \[-\] \[*\] \[/\] and \[Num Enter\] key. The \[0\] and \[.\] keys are on thumb cluster, quite conveniently placed almost as they would be on a normal numpad.
 
 The \[Numlock\] and \[Insert\] keys are also on this layer, but I rarely use them.
 
 I placed the numpad on the right hand because I'm used to it and can easily type numbers from muscle memory. The left hand is basically unused for now.
 
+### Macro Keys
+
+Here are the macros I use:
+
+Backtick (Undead):
+![Backtick (Undead)](images/macro_backtick_undead.png)
+
+Tilde (Undead):
+![Tilde (Undead)](images/macro_tilde_undead.png)
+
+Circumflex (Undead):
+![Circumflex (Undead)](images/macro_circumflex_undead.png)
+
+Single Quote (Undead):
+![Single Quote (Undead)](images/macro_single_quote_undead.png)
+
+Double Quote (Undead):
+![Double Quote (Undead)](images/macro_double_quote_undead.png)
+
+En Dash:
+![En Dash](images/macro_endash.png)
+
+Nbsp:
+![Nbsp](images/macro_nbsp.png)
+
+### Superkeys
+
+Here are my superkeys:
+
+Superkey CCP:
+![Superkey CCP](images/superkey_ccp.png)
+
+Superkey Layer:
+![Superkey Layer](images/superkey_layer.png)
+
 ## Learning the new layout
 
-I used [Typingclub](https://www.typingclub.com/) to learn the letter positions. To really nail down the basics I later used [keybr.com](https://www.keybr.com/) to focus on getting my fingers up to spead and [monkeytype.com](https://monkeytype.com/) for a more realistic typing experience. I put in some chapters of [Alexander Wales' Worth the Candle](https://archiveofourown.org/works/11478249) I was reading at the time and typed it out to get used to the new layout.
+To adapt to this new layout, I used various resources.
 
-## Other alternatives for Dygma Defy layers
+- [Typingclub](https://www.typingclub.com/) to learn the letter positions.
+- [keybr.com](https://www.keybr.com/) to focus on getting my fingers up to spead.
+- [monkeytype.com](https://monkeytype.com/) for a more realistic typing experience.
+  - I use English 1k as a benchmark of my typing speed.
+  - For text, I put in some chapters of [Alexander Wales' Worth the Candle](https://archiveofourown.org/works/11478249) and typed it out.
+  - For programming, I use the programming language "quotes".
 
-- [objectmanip's layout](https://github.com/objectmanip/Dygma-Defy-Layers)
-  - A Colemak-DH layout with a lot of super keys and 8 layers, including 3 gaming layers. Brackets split between left and right hand. Shift on the left pinky only. Control as well. Arrow keys on the main layer. Thumb cluster is used for various things (besides space, enter and backspace): Layer shift, media keys, and more super keys.
-- [tarbari's layout](https://github.com/tarbari/defy_layers)
-  - A variant of Colemak-DH with some national characters added. Enter on the left pinky. Uses "home row modifiers" for OS, Ctrl, Alt and Shift. Thumb cluster used for layer shifting mainly. 8 layers.
-- [Obskyur's layout](https://github.com/Obskyur/Dygma-Defy__Profiles>)
-- [barlevalon's miryoku based layout](https://github.com/barlevalon/dotfiles/blob/main/dygma/miryoku-qwerty/README.md)
+## Alternatives
+
+Here are some other layouts for the Defy you might want to have a look at:
+
+- [objectmanip's layout](https://github.com/objectmanip/Dygma-Defy-Layers): A complex Colemak-DH layout with multiple layers.
+- [tarbari's layout](https://github.com/tarbari/defy_layers): Another Colemak-DH variant with unique features.
+- [Obskyur's layout](https://github.com/Obskyur/Dygma-Defy__Profiles): A QWERTY layout with some interesting ideas.
+- [barlevalon's layout](https://github.com/barlevalon/dotfiles/blob/main/dygma/miryoku-qwerty/README.md): A layout based on miryoku.
+
+Many more (of various quality)) can be found on the [Dygma Discord](https://www.dygma.com/discord) in the [share-your-layers channel](https://discord.com/channels/895297925578637362/1143898136427909323).
