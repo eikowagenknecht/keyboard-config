@@ -27,11 +27,11 @@
     },
     {
       "id": 3,
-      "name": "L4 - Gaming / QWERTY"
+      "name": "L4 - Gaming"
     },
     {
       "id": 4,
-      "name": "L5 - Shift and F keys"
+      "name": "L5 - Shift"
     },
     {
       "id": 5,
@@ -78,11 +78,6 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 20497,
-      "label": "UP",
-      "extraLabel": "M.Wheel"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -113,10 +108,15 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 19682,
-      "label": "🔇",
-      "extraLabel": "",
-      "verbose": "MUTE"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 54108,
+      "label": "LEVEL",
+      "extraLabel": "BATT."
     },
     {
       "keyCode": 22710,
@@ -137,9 +137,10 @@
       "verbose": "Next track"
     },
     {
-      "keyCode": 75,
-      "label": "PAGE UP",
-      "verbose": "Page Up"
+      "keyCode": 19682,
+      "label": "🔇",
+      "extraLabel": "",
+      "verbose": "MUTE"
     },
     {
       "keyCode": 76,
@@ -156,10 +157,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20552,
+      "label": "BACK",
+      "extraLabel": "M.Btn"
     },
     {
       "keyCode": 20481,
@@ -167,15 +167,14 @@
       "extraLabel": "Mouse"
     },
     {
-      "keyCode": 20498,
-      "label": "DOWN",
-      "extraLabel": "M.Wheel"
+      "keyCode": 20560,
+      "label": "FORW.",
+      "extraLabel": "M.Btn"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20497,
+      "label": "UP",
+      "extraLabel": "M.Wheel"
     },
     {
       "keyCode": 0,
@@ -224,10 +223,9 @@
       "verbose": "Page Down"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53980,
+      "label": "Layer",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 225,
@@ -257,16 +255,14 @@
       "extraLabel": "Mouse"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20498,
+      "label": "DOWN",
+      "extraLabel": "M.Wheel"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53982,
+      "label": "CCP",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 0,
@@ -321,26 +317,6 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 285,
-      "label": "Z",
-      "extraLabel": "C+"
-    },
-    {
-      "keyCode": 283,
-      "label": "X",
-      "extraLabel": "C+"
-    },
-    {
-      "keyCode": 262,
-      "label": "C",
-      "extraLabel": "C+"
-    },
-    {
-      "keyCode": 281,
-      "label": "V",
-      "extraLabel": "C+"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -371,18 +347,38 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 20552,
-      "label": "BACK",
-      "extraLabel": "M.Btn"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 20545,
       "label": "LEFT",
-      "extraLabel": "M.Btn"
-    },
-    {
-      "keyCode": 20548,
-      "label": "MIDDLE",
       "extraLabel": "M.Btn"
     },
     {
@@ -391,9 +387,15 @@
       "extraLabel": "M.Btn"
     },
     {
-      "keyCode": 20560,
-      "label": "FORW.",
+      "keyCode": 20548,
+      "label": "MIDDLE",
       "extraLabel": "M.Btn"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -443,9 +445,10 @@
       "verbose": "Left Windows"
     },
     {
-      "keyCode": 53980,
-      "label": "Layer",
-      "extraLabel": "SUPER"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -492,28 +495,28 @@
     15,
     15,
     15,
-    13,
     15,
-    15,
-    10,
     15,
     15,
     10,
-    13,
     15,
+    13,
+    10,
+    13,
+    13,
     15,
     12,
     15,
     10,
     10,
     10,
+    13,
+    9,
     15,
     15,
     15,
-    9,
-    9,
-    9,
-    9,
+    15,
+    15,
     15,
     15,
     12,
@@ -524,13 +527,13 @@
     12,
     12,
     14,
-    13,
-    11,
-    11,
-    11,
+    4,
+    4,
+    4,
+    4,
     11,
     15,
-    15,
+    8,
     13,
     13,
     10,
@@ -545,11 +548,11 @@
     10,
     15,
     15,
+    15,
     13,
     13,
     13,
-    13,
-    13,
+    15,
     15,
     15,
     14,
@@ -557,7 +560,7 @@
     6,
     15,
     15,
-    8,
+    15,
     10,
     10,
     10,
@@ -687,16 +690,16 @@
       "rgb": "rgb(255, 255, 255)"
     },
     {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "rgb": "rgb(255, 255, 255)"
-    },
-    {
       "r": 251,
       "g": 113,
       "b": 133,
       "rgb": "rgb(251, 113, 133)"
+    },
+    {
+      "r": 232,
+      "g": 121,
+      "b": 249,
+      "rgb": "rgb(232, 121, 249)"
     },
     {
       "r": 0,

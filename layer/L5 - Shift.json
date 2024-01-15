@@ -56,8 +56,9 @@
   ],
   "keymap": [
     {
-      "keyCode": 41,
-      "label": "ESC"
+      "keyCode": 2089,
+      "label": "ESC",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 2106,
@@ -132,12 +133,14 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 76,
-      "label": "DEL"
+      "keyCode": 2124,
+      "label": "DEL",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 2091,
+      "label": "TAB",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 2068,
@@ -215,10 +218,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53980,
+      "label": "Layer",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 225,
@@ -270,10 +272,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 2118,
+      "label": "PRINT SCRN",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 2064,
@@ -307,10 +308,10 @@
       "verbose": "Right Shift"
     },
     {
-      "keyCode": 225,
-      "label": "SHIFT",
-      "extraLabel": "LEFT",
-      "verbose": "Left Shift"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 2077,
@@ -388,10 +389,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 229,
-      "label": "SHIFT",
-      "extraLabel": "RIGHT",
-      "verbose": "Right Shift"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -400,19 +401,19 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 226,
+      "keyCode": 2274,
       "label": "LEFT ALT",
-      "verbose": "Left Alt"
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 44,
-      "label": "SPACE"
+      "keyCode": 2092,
+      "label": "SPACE",
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 224,
+      "keyCode": 2272,
       "label": "CTRL",
-      "extraLabel": "LEFT",
-      "verbose": "Left Control"
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -431,14 +432,29 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 227,
+      "keyCode": 2275,
       "label": "LEFT WIN",
-      "verbose": "Left Windows"
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 53980,
-      "label": "Layer",
-      "extraLabel": "SUPER"
+      "keyCode": 2127,
+      "label": "→",
+      "extraLabel": "S+"
+    },
+    {
+      "keyCode": 2129,
+      "label": "↓",
+      "extraLabel": "S+"
+    },
+    {
+      "keyCode": 2128,
+      "label": "←",
+      "extraLabel": "S+"
+    },
+    {
+      "keyCode": 2088,
+      "label": "ENTER",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -447,31 +463,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 40,
-      "label": "ENTER"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 42,
+      "keyCode": 2090,
       "label": "BACKSPACE",
-      "verbose": "Backspace"
+      "extraLabel": "S+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 2130,
+      "label": "↑",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -523,7 +522,7 @@
     8,
     4,
     4,
-    15,
+    8,
     15,
     11,
     11,
@@ -536,7 +535,7 @@
     11,
     6,
     11,
-    15,
+    9,
     15,
     15,
     7,
@@ -544,13 +543,13 @@
     11,
     11,
     15,
-    15,
+    10,
     14,
     15,
     6,
-    15,
-    15,
-    8,
+    10,
+    10,
+    10,
     15,
     15,
     15,
@@ -680,16 +679,16 @@
       "rgb": "rgb(255, 255, 255)"
     },
     {
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "rgb": "rgb(255, 255, 255)"
-    },
-    {
       "r": 251,
       "g": 113,
       "b": 133,
       "rgb": "rgb(251, 113, 133)"
+    },
+    {
+      "r": 232,
+      "g": 121,
+      "b": 249,
+      "rgb": "rgb(232, 121, 249)"
     },
     {
       "r": 0,
