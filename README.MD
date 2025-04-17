@@ -124,7 +124,7 @@ Thumb keys:
 
 ### Shift Layer (5)
 
-![Shift Layer](images/layer2.png)
+![Shift Layer](images/layer5.png)
 
 This layer complements the [base layer](#base-layer-1). Most of the keys are the same as they are there, but with an added "shift" modifier. The following keys are different:
 
